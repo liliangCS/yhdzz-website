@@ -1,0 +1,12 @@
+{
+  "name": "约会大作战主题网站",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "node script/imgToJPG.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
