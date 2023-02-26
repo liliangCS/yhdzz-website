@@ -1,0 +1,28 @@
+.role-list {
+  box-sizing: border-box;
+  padding: 0 20px 20px 30px;
+}
+
+.role-item {
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.role-info {
+  display: flex;
+}
+
+.role-info img {
+  width: 120px;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.role-desc {
+  text-indent: 20px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  text-align: justify;
+}

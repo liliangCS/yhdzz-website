@@ -1,0 +1,102 @@
+/* 重置样式 */
+@import "./css/reset.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* 隐藏 */
+.hidden {
+  display: none;
+}
+
+/* 图片背景效果 */
+.bg-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./images/玻璃效果.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 回到顶部样式 */
+.go-top {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  padding: 8px;
+  border-radius: 100%;
+  background-color: #ddd;
+  box-shadow: 0 0 10px #aaa;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.go-top:hover {
+  background-color: #eee;
+  box-shadow: 0 0 10px #eee;
+}
+
+.cover {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.cover img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(178, 200, 187);
+  padding: 10px 0;
+  border-bottom: 1px solid #999;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  margin-bottom: 40px;
+}
+
+.menu .inner {
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu .inner a {
+  color: #333;
+}
+
+.menu .inner a:hover {
+  color: antiquewhite;
+}
+
+/* 主体内容区 */
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.home {
+  height: 100%;
+}
+
+.home .home-text {
+  margin: 40px auto;
+}
+
+/* 页脚 */
+.footer {
+  height: 50px;
+  background-color: rgb(178, 200, 187);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #999;
+}

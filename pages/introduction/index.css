@@ -1,0 +1,31 @@
+.introduction {
+  width: 100%;
+}
+
+.introduction-desc {
+  margin: 30px 0 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.introduction-img {
+  width: 48%;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #999;
+}
+
+.introduction-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.introduction-text {
+ width: 48%;
+ text-indent: 20px;
+ line-height: 30px;
+ letter-spacing: 2px;
+ text-align: justify;
+}

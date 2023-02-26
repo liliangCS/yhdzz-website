@@ -1,0 +1,95 @@
+.statement {
+  margin-bottom: 50px;
+}
+
+.statement-header {
+  position: relative;
+  height: 200px;
+}
+
+.inner-box {
+  transform-style: preserve-3d;
+  position: absolute;
+  left: 50%;
+  top: 100px;
+  width: 100px;
+  height: 100px;
+  transform: translateX(-50%) rotateX(-33.5deg) rotateY(45deg);
+  animation: innerLoop 8s infinite linear;
+  cursor: pointer;
+}
+
+@keyframes innerLoop {
+  0% {
+    transform: translate(-50%, -50%) rotateX(-33.5deg) rotateY(45deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotateX(-33.5deg) rotateY(405deg);
+  }
+}
+
+.inner-box>div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #175d96;
+  border: 1px solid #fff;
+}
+
+.inner-box>div>img {
+  width: 100%;
+  height: 100%;
+}
+
+.inner-box>.top {
+  transform: rotateX(90deg) translateZ(50px);
+  transition: all 1s linear;
+}
+
+.inner-box>.bottom {
+  transform: rotateX(-90deg) translateZ(50px);
+  transition: all 1s linear;
+}
+
+.inner-box>.left {
+  transform: rotateY(-90deg) translateZ(50px);
+  transition: all 1s linear;
+}
+
+.inner-box>.right {
+  transform: rotateY(90deg) translateZ(50px);
+  transition: all 1s linear;
+}
+
+.inner-box>.front {
+  transform: translateZ(50px);
+  transition: all 1s linear;
+}
+
+.inner-box>.back {
+  transform: rotateY(-180deg) translateZ(50px);
+  transition: all 1s linear;
+}
+
+.statement-item {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 20px 120px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.statement-item img {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+}
+
+.statement-item p {
+  margin-left: 30px;
+  flex: 1;
+}

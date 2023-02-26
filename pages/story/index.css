@@ -1,0 +1,11 @@
+.story {
+  margin-bottom: 30px;
+}
+
+.video-box {
+  box-sizing: border-box;
+  padding: 30px 10px 20px;
+  background-color: black;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px #333;
+}
