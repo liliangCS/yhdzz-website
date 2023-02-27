@@ -1,3 +1,4 @@
+// swiper配置
 var mySwiper = new Swiper ('.swiper', {
   loop: true, // 循环模式选项
   autoplay: true,
